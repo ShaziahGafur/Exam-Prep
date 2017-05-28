@@ -1,4 +1,4 @@
-/*	
+/*
 	Side Navigation Menu V2, RWD
 	===================
 	License:
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size:3em; 
+  font-size:3em;
   font-weight: 300;
   line-height:1em;
   text-align: center;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size:1em; 
+  font-size:1em;
   font-weight: 300;
   text-align: center;
   display: block;
@@ -75,7 +75,7 @@ h2 a {
   td,   th {
 	  padding-bottom: 2%;
 	  padding-top: 2%;
-  padding-left:2%;  
+  padding-left:2%;
 }
 
 /* Background-color of the odd rows */
@@ -105,17 +105,17 @@ h2 a {
   background-color: #FFF842;
   color: #403E10;
   font-weight: bold;
-  
+
   box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
   transform: translate3d(6px, -6px, 0);
-  
+
   transition-delay: 0s;
 	  transition-duration: 0.4s;
 	  transition-property: all;
   transition-timing-function: line;
 }
 
-.tg{ 
+.tg{
     align: center;
 }
 
@@ -137,12 +137,11 @@ ul{
     padding-bottom: 25px !important;
     margin-left: 200px !important;
 }
-
-.menu{ align: center !important; margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('topMenuImages.png') repeat-x;}
-.menu li{padding:0; margin:0; list-style:none; display:inline;}
+.menu{ align: center !important; margin:0 auto; padding:0; height:30px;  display:block; }
+.menu li{padding:0; margin:190px; list-style:none; display:inline; align: center;}
 .menu li a{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none; font:12px Verdana, Arial, Helvetica, sans-serif; cursor:pointer; background:url('topMenuImages.png') 0px -30px no-repeat;}
-.menu li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url('topMenuImages.png') 100% -30px no-repeat;}
-.menu li a:hover{background-position:0px -60px; color:rgb(255,255,255);}
-.menu li a:hover span{background-position:100% -60px;}
-.menu li a.active, .menu li a.active:hover{line-height:30px; font:12px Verdana, Arial, Helvetica, sans-serif; background:url('topMenuImages.png') 0px -90px no-repeat; color:white;}
-.menu li a.active span, .menu li a.active:hover span{background:url('topMenuImages.png') 100% -90px no-repeat;}
+
+
+
+.menu
+{display: none;}
